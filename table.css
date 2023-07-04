@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.soz{
+    text-align: center;
+    color: #01987a;
+    border: 2px solid #01987a;
+}
+.table{
+    width: 70%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    text-align: left;
+    box-shadow: 0 0 15px #0002;
+    border-radius: 8px 8px 0 0;
+    border-bottom: 3px solid #01987a;
+}
+.table th,
+.table td{
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    font-family: cursive;
+}
+.thead th{
+    background: #01987a;
+    color: #fff;    
+}
+.thead th:first-child{
+    border-radius: 8px 0 0 0;
+}
+.thead th:last-child{
+    border-radius: 0 8px 0 0;
+}
+.tbody tr:hover{
+    background: #3332;
+}
+/* odd juft */
+/* even toq */
+.tbody tr:nth-child(odd){
+    color: #01987a;
+    background: #3331;
+}
